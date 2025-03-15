@@ -1,11 +1,53 @@
-/* 
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.heading{
+    background-color: #151516;
+    margin: 0 auto;
+    color: white;
+}
 
-*/
+.stopwatch{
+    color: rgb(236, 236, 236);
+}
+
+.bigCounter{
+    margin: 0 auto;
+    background-color: #151516;
+}
+
+.bigCounter div{
+    display: inline-block;
+    font-size: 80px;
+    width: 150px;
+    line-height: 100px;
+    background: #2d2d2e;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #4d4d4d;
+}
+
+.buttons {
+    background-color:rgb(14, 14, 14);
+}
+
+.timer{
+    background-color: black;
+}
+
+.btn-blue{
+    background-color: #b6e4ee;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+}
+
+.btn-blue:hover{
+    background-color: #eedf96;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+}
+
+.btn-reset{
+    background-color: rgb(241, 139, 108);
+}

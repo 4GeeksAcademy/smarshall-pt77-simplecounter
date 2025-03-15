@@ -1,0 +1,5 @@
+handlePaused={handlePaused} 
+    handleContinued={handleContinued} 
+    handleSubtract={handleSubtract} 
+    myInterval={myInterval} 
+    handleReset={handleReset}
